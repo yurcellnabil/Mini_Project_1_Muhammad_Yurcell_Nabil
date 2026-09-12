@@ -52,7 +52,7 @@ while True:
             try:
                 pilihan_mobil = int(input("Pilih Mobil: ").strip()) - 1
                 mobil = stok_mobil[pilihan_mobil]
-                stok_mobil.remove(mobil)  # Hapus dari stok mobil via .remove()
+                stok_mobil.remove(mobil)  
                 break
             except (ValueError, IndexError): pass
             print("Pilihan mobil tidak valid!")
@@ -72,8 +72,8 @@ while True:
         book += 1
         
         tiket = (kode, nama, no_hp, rute, tgl_jam, jemput, p, mobil, total, metode)
-        data_pesanan += [tiket]  # Menambah data tanpa method .append()
-        
+        data_pesanan += [tiket] 
+
         print(f"   BUKTI TIKET TRAVEL (LUNAS) - KODE: {kode}")
         print(f"Pemesan : {nama} ({no_hp})")
         print(f"Rute    : {rute} | Jadwal: {tgl_jam}")
@@ -129,7 +129,7 @@ while True:
             for item in data_pesanan:
                 if item[0] == cari_kode:
                     ditemukan = True
-                    data_pesanan.remove(item)  # Menghapus pesanan dari list
+                    data_pesanan.remove(item)  
                     print(f"Pesanan dengan kode {cari_kode} berhasil dibatalkan!")
                     break
             
