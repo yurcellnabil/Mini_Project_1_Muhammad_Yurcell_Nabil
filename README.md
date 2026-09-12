@@ -42,13 +42,16 @@ Pengguna memilih pilihan mobil yang dipesan dan metode pembayaran, maka akan mun
 
 pengguna bisa melihat data pemesanan
 
+
 <img width="689" height="204" alt="Screenshot 2026-09-12 143052" src="https://github.com/user-attachments/assets/e41280e2-92a4-4017-9df7-5ee6a0b042b9" />
 
 pengguna juga bisa mengubah data apabila ada kesalahan data seperti nama,no hp, titik jemput dengan cara memasukan kode booking
 
+
 <img width="691" height="206" alt="Screenshot 2026-09-12 143028" src="https://github.com/user-attachments/assets/bdc2c1b7-ea18-400e-8e90-6c8c9ffe1299" />
 
 pengguna bisa mengubah nama dengan memilih angka 1
+
 
 <img width="689" height="204" alt="Screenshot 2026-09-12 143052" src="https://github.com/user-attachments/assets/20f6ceee-31e0-4b10-9399-b9c8699f4d50" />
 
@@ -67,9 +70,10 @@ Pengguna juga  bisa mengubah titik jemput
 
 <img width="686" height="206" alt="Screenshot 2026-09-12 143327" src="https://github.com/user-attachments/assets/e3cc6879-492b-4be2-86f8-34c079fd491c" />
 
-Sistem mengonfirmasi bahwa pesanan berhasil di batalkan
+pengguna bisa memilih angka 4 untuk membatalkan pesanan dan Sistem mengonfirmasi bahwa pesanan berhasil di batalkan
 
-<img width="694" height="213" alt="Screenshot 2026-09-12 143230" src="https://github.com/user-attachments/assets/05fcb245-fb3c-4beb-b01b-ba697099a3c5" />
+
+<img width="688" height="205" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/bf1698ca-3df9-4736-9fe7-35a2466fe111" />
 
 Pengguna bisa langsung keluar program
-<img width="688" height="205" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/bf1698ca-3df9-4736-9fe7-35a2466fe111" />
+
