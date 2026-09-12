@@ -40,7 +40,7 @@ Pengguna memilih pilihan mobil yang dipesan dan metode pembayaran, maka akan mun
 
 <img width="695" height="211" alt="Screenshot 2026-09-12 143003" src="https://github.com/user-attachments/assets/752772a4-25ba-4ac3-8bd0-d22c9e4628c5" />
 
-pengguna bisa mengganti nama pemesanan
+pengguna bisa melihat data pemesanan
 
 <img width="691" height="206" alt="Screenshot 2026-09-12 143028" src="https://github.com/user-attachments/assets/bdc2c1b7-ea18-400e-8e90-6c8c9ffe1299" />
 
