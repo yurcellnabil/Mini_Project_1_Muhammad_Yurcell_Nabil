@@ -48,9 +48,11 @@ pengguna juga bisa mengubah data apabila ada kesalahan data seperti nama,no hp, 
 
 <img width="691" height="206" alt="Screenshot 2026-09-12 143028" src="https://github.com/user-attachments/assets/bdc2c1b7-ea18-400e-8e90-6c8c9ffe1299" />
 
-pppppp
+pengguna bisa mengubah nama dengan memilih angka 1
 
+<img width="689" height="204" alt="Screenshot 2026-09-12 143052" src="https://github.com/user-attachments/assets/20f6ceee-31e0-4b10-9399-b9c8699f4d50" />
 
+Nama pengguna berhasil diubah
 
 
 <img width="686" height="209" alt="Screenshot 2026-09-12 143115" src="https://github.com/user-attachments/assets/269e7e63-2b62-4f64-83cd-8b21728901d2" />
