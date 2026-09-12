@@ -24,13 +24,17 @@ Jumlah Penumpang (p): Menggunakan blok try-except ValueError untuk memastikan in
 
 
 <img width="689" height="210" alt="Screenshot 2026-09-12 142827" src="https://github.com/user-attachments/assets/110eb1b7-a878-4e13-b45b-a1093fab3e66" />
+
 Pengguna bisa memilih angka menunya, di sini saya memilih angka 1 dan masuk ke menu pemesanan tiket setelah itu pengguna bisa mengisi identitas diri dan milih rute 
+
+
+<img width="692" height="179" alt="Screenshot 2026-09-12 142850" src="https://github.com/user-attachments/assets/7a5075d7-c6f0-4149-89c8-0c8417019e0e" />
+pengguna menentukan jadwal, jumlah tiket yang di pesan, dan titik penjemputan serta mobil yang tersedia
+
 
 <img width="694" height="205" alt="Screenshot 2026-09-12 142910" src="https://github.com/user-attachments/assets/47a14e29-6ed7-46f9-94e9-d28cc35f970b" />
 Pengguna memilih pilihan mobil yang dipesan dan metode pembayaran, maka akan muncul bukti tiket travel
 
-<img width="692" height="179" alt="Screenshot 2026-09-12 142850" src="https://github.com/user-attachments/assets/7a5075d7-c6f0-4149-89c8-0c8417019e0e" />
-pengguna menentukan jadwal, jumlah tiket yang di pesan, dan titik penjemputan serta mobil yang tersedia
 
 <img width="691" height="206" alt="Screenshot 2026-09-12 143028" src="https://github.com/user-attachments/assets/bdc2c1b7-ea18-400e-8e90-6c8c9ffe1299" />
 pengguna juga bisa mengubah data apabila ada kesalahan data seperti nama,no hp, titik jemput dengan cara memasukan kode booking
