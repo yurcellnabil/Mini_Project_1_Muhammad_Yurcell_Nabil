@@ -57,11 +57,14 @@ Nama pengguna berhasil diubah
 
 <img width="686" height="209" alt="Screenshot 2026-09-12 143115" src="https://github.com/user-attachments/assets/269e7e63-2b62-4f64-83cd-8b21728901d2" />
 
-Sistem mengonfirmasi bahwa pesanan berhasil di batalkan
+Pengguna juga bisa mengubah no hp dengan memilih angka 2 dan berhasil diubah
 
 <img width="686" height="206" alt="Screenshot 2026-09-12 143327" src="https://github.com/user-attachments/assets/e3cc6879-492b-4be2-86f8-34c079fd491c" />
 
-Pengguna bisa mengganti titik penjemputan
+
+<img width="694" height="213" alt="Screenshot 2026-09-12 143230" src="https://github.com/user-attachments/assets/05fcb245-fb3c-4beb-b01b-ba697099a3c5" />
+
+Sistem mengonfirmasi bahwa pesanan berhasil di batalkan
 
 <img width="694" height="213" alt="Screenshot 2026-09-12 143230" src="https://github.com/user-attachments/assets/05fcb245-fb3c-4beb-b01b-ba697099a3c5" />
 
