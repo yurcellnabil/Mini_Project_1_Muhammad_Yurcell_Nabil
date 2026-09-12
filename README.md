@@ -20,6 +20,8 @@ Jumlah Penumpang (p): Menggunakan blok try-except ValueError untuk memastikan in
 
 
 <img width="485" height="404" alt="Screenshot 2026-09-12 121848" src="https://github.com/user-attachments/assets/17ae1421-ef8d-4d2b-8adb-d4c05ce939f8" />
+Flowchart alur proses sistem pemesan travel Muhammad Yurcell Nabil
+
 
 
 
@@ -75,5 +77,5 @@ pengguna bisa memilih angka 4 untuk membatalkan pesanan dan Sistem mengonfirmasi
 
 <img width="688" height="205" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/bf1698ca-3df9-4736-9fe7-35a2466fe111" />
 
-Pengguna bisa langsung keluar program
+Pengguna bisa memilih angka 5 dan langsung keluar dari program
 
