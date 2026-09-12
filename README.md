@@ -3,19 +3,19 @@
 Nama: Muhammad Yurcell Nabil <br>
 NIM: 2609116073
 
-data_pesanan = Tempat menyimpan seluruh transaksi pemesanan dalam bentuk list dari tuple.
-stok_mobil = List yang berisi daftar unit kendaraan yang bisa di sewa
-book = Angka untuk pembuatan kode booking secara otomatis (misal: YURCELL-101).
-Menggunakan while True agar aplikasi terus berjalan sampai pengguna memilih keluar.
-Menampilkan 5 pilihan menu (1. Pemesanan Tiket, 2. Lihat Data, 3. Ubah Data, 4. Batal Tiket, 5. Keluar).
-pilihan = input, .strip: Mengambil input menu dan menghapus spasi di awal dan akhir input.
-Menu 1: Pemesanan Tiket dan Validasi Data Diri Pemesan seperti Mengambil input nama dan no_hp.
-Menggunakan while nama == "" untuk memastikan input tidak boleh kosong.
-Menggunakan perulangan untuk memilih rute (1, 2, atau 3).
-Menyimpan string nama rute dan nominal harga berdasarkan pilihan pengguna.
-Input Jadwal, Jumlah Penumpang,dan Lokasi penjemputan
-Jadwal dan Lokasi: Memastikan input tanggal atau jam dan titik jemput tidak kosong.
-Jumlah Penumpang (p): Menggunakan blok try-except ValueError untuk memastikan input berupa angka bulat positif (> 0).
+data_pesanan = Tempat menyimpan seluruh transaksi pemesanan dalam bentuk list dari tuple. ,
+stok_mobil = List yang berisi daftar unit kendaraan yang bisa di sewa. ,
+book = Angka untuk pembuatan kode booking secara otomatis (misal: YURCELL-101). ,
+Menggunakan while True agar aplikasi terus berjalan sampai pengguna memilih keluar. ,
+Menampilkan 5 pilihan menu (1. Pemesanan Tiket, 2. Lihat Data, 3. Ubah Data, 4. Batal Tiket, 5. Keluar). ,
+pilihan = input, .strip: Mengambil input menu dan menghapus spasi di awal dan akhir input. ,
+Menu 1: Pemesanan Tiket dan Validasi Data Diri Pemesan seperti Mengambil input nama dan no_hp. ,
+Menggunakan while nama == "" untuk memastikan input tidak boleh kosong. ,
+Menggunakan perulangan untuk memilih rute (1, 2, atau 3). ,
+Menyimpan string nama rute dan nominal harga berdasarkan pilihan pengguna. ,
+Input Jadwal, Jumlah Penumpang,dan Lokasi penjemputan. ,
+Jadwal dan Lokasi: Memastikan input tanggal atau jam dan titik jemput tidak kosong. ,
+Jumlah Penumpang (p): Menggunakan blok try-except ValueError untuk memastikan input berupa angka bulat positif (> 0). ,
 
 
 
