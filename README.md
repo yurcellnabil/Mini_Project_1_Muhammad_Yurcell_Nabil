@@ -24,12 +24,29 @@ Jumlah Penumpang (p): Menggunakan blok try-except ValueError untuk memastikan in
 
 
 <img width="689" height="210" alt="Screenshot 2026-09-12 142827" src="https://github.com/user-attachments/assets/110eb1b7-a878-4e13-b45b-a1093fab3e66" />
+Pengguna bisa memilih angka menunya, di sini saya memilih angka 1 dan masuk ke menu pemesanan tiket setelah itu pengguna bisa mengisi identitas diri dan milih rute 
+
 <img width="694" height="205" alt="Screenshot 2026-09-12 142910" src="https://github.com/user-attachments/assets/47a14e29-6ed7-46f9-94e9-d28cc35f970b" />
+Pengguna memilih pilihan mobil yang dipesan dan metode pembayaran, maka akan muncul bukti tiket travel
+
 <img width="692" height="179" alt="Screenshot 2026-09-12 142850" src="https://github.com/user-attachments/assets/7a5075d7-c6f0-4149-89c8-0c8417019e0e" />
+pengguna menentukan jadwal, jumlah tiket yang di pesan, dan titik penjemputan serta mobil yang tersedia
+
 <img width="691" height="206" alt="Screenshot 2026-09-12 143028" src="https://github.com/user-attachments/assets/bdc2c1b7-ea18-400e-8e90-6c8c9ffe1299" />
+pengguna juga bisa mengubah data apabila ada kesalahan data seperti nama,no hp, titik jemput dengan cara memasukan kode booking
+
 <img width="695" height="211" alt="Screenshot 2026-09-12 143003" src="https://github.com/user-attachments/assets/752772a4-25ba-4ac3-8bd0-d22c9e4628c5" />
+pengguna bisa mengganti nama pemesanan
+
 <img width="689" height="204" alt="Screenshot 2026-09-12 143052" src="https://github.com/user-attachments/assets/e41280e2-92a4-4017-9df7-5ee6a0b042b9" />
+pengguna juga bisa mengganti no hp
+
 <img width="686" height="209" alt="Screenshot 2026-09-12 143115" src="https://github.com/user-attachments/assets/269e7e63-2b62-4f64-83cd-8b21728901d2" />
+Sistem mengonfirmasi bahwa pesanan berhasil di batalkan
+
 <img width="686" height="206" alt="Screenshot 2026-09-12 143327" src="https://github.com/user-attachments/assets/e3cc6879-492b-4be2-86f8-34c079fd491c" />
+Pengguna bisa mengganti titik penjemputan
+
 <img width="694" height="213" alt="Screenshot 2026-09-12 143230" src="https://github.com/user-attachments/assets/05fcb245-fb3c-4beb-b01b-ba697099a3c5" />
+Pengguna bisa langsung keluar program
 <img width="688" height="205" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/bf1698ca-3df9-4736-9fe7-35a2466fe111" />
