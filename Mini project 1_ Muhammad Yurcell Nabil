@@ -1,0 +1,145 @@
+#PROGRAM SISTEM PEMESANAN TIKET TRAVEL MUHAMMAD YURCELL NABIL
+# Tugas Praktikum Dasar Pemrograman (DDP)
+
+data_pesanan = []
+stok_mobil = ["Avanza Grand", "Innova Reborn", "Toyota Rush", "Fortuner"]
+book = 101
+
+while True:
+    print("SISTEM PEMESANAN TIKET TRAVEL MUHAMMAD YURCELL NABIL")
+    print("1. Pemesanan Tiket  2. Lihat Data  3. Ubah Data")
+    print("4. Batal Tiket       5. Keluar")
+    pilihan = input("Pilih menu (1-5): ").strip()
+    
+    # 1. TAMBAH PESANAN 
+    if pilihan == "1":
+        print("--- FORM PEMESANAN TIKET ---")
+        nama = input("Nama Pemesan: ").strip()
+        while nama == "": nama = input("[Ulangi] Nama wajib diisi: ").strip()
+            
+        no_hp = input("Nomor HP/WA: ").strip()
+        while no_hp == "": no_hp = input("[Ulangi] No HP wajib diisi: ").strip()
+            
+        print("Rute: 1. Balikpapan-Samarinda (100k) | 2. Samarinda-Tenggarong (60k) | 3. Balikpapan-IKN (120k)")
+        rute, harga = "", 0
+        while True:
+            r = input("Pilih Rute (1-3): ").strip()
+            if r == "1": rute, harga = "Balikpapan - Samarinda", 100000; break
+            elif r == "2": rute, harga = "Samarinda - Tenggarong", 60000; break
+            elif r == "3": rute, harga = "Balikpapan - IKN", 120000; break
+            print("Pilihan rute salah!")
+            
+        tgl_jam = input("Jadwal Berangkat (Contoh: 12-10-2026 08:00): ").strip()
+        while tgl_jam == "": tgl_jam = input("[Ulangi] Jadwal wajib diisi: ").strip()
+            
+        while True:
+            try:
+                p = int(input("Jumlah Penumpang: ").strip())
+                if p > 0: break
+            except ValueError: pass
+            print("Jumlah penumpang harus angka > 0!")
+            
+        jemput = input("Lokasi Titik Jemput: ").strip()
+        while jemput == "": jemput = input("[Ulangi] Titik jemput wajib diisi: ").strip()
+            
+        if stok_mobil == []: print("Maaf, mobil terpakai semua!"); continue
+            
+        print("Mobil Tersedia:")
+        for mobil_item in stok_mobil:
+            print(f"{stok_mobil.index(mobil_item) + 1}. {mobil_item}")
+            
+        while True:
+            try:
+                pilihan_mobil = int(input("Pilih Mobil: ").strip()) - 1
+                mobil = stok_mobil[pilihan_mobil]
+                stok_mobil.remove(mobil)  # Hapus dari stok mobil via .remove()
+                break
+            except (ValueError, IndexError): pass
+            print("Pilihan mobil tidak valid!")
+            
+        total = harga * p
+        print(f"Total Biaya: Rp {total}")
+        print("Metode Bayar: 1. Transfer Bank | 2. E-Wallet | 3. QRIS")
+        metode = ""
+        while True:
+            pb = input("Pilih Pembayaran (1-3): ").strip()
+            if pb == "1": metode = "Transfer Bank"; break
+            elif pb == "2": metode = "E-Wallet"; break
+            elif pb == "3": metode = "QRIS"; break
+            print("Pilihan pembayaran tidak valid!")
+            
+        kode = f"YURCELL-{book}"
+        book += 1
+        
+        tiket = (kode, nama, no_hp, rute, tgl_jam, jemput, p, mobil, total, metode)
+        data_pesanan += [tiket]  # Menambah data tanpa method .append()
+        
+        print(f"   BUKTI TIKET TRAVEL (LUNAS) - KODE: {kode}")
+        print(f"Pemesan : {nama} ({no_hp})")
+        print(f"Rute    : {rute} | Jadwal: {tgl_jam}")
+        print(f"Mobil   : {mobil} | Jemput: {jemput}")
+        print(f"Total   : Rp {total} ({metode})")
+
+    # 2. LIHAT DATA 
+    elif pilihan == "2":
+        print("--- DAFTAR PEMESANAN TIKET ---")
+        if data_pesanan == []: print("Belum ada data transaksi pesanan.")
+        else:
+            print(f"{'No':<3} | {'Kode':<12} | {'Nama':<22} | {'No Hp':<14} {'Rute'}")
+            print ("_" * 85)
+            for item in data_pesanan:
+                print(f"{data_pesanan.index(item) + 1:<3} | {item[0]:<12} | {item[1]:<22} | {item[2]:<14} | {item[3]}")
+            print ("_" * 85)
+    # 3. UBAH DATA (UPDATE)
+    elif pilihan == "3":
+        print("--- UBAH DATA PEMESANAN ---")
+        if data_pesanan == []: print("Belum ada data pesanan.")
+        else:
+            cari_kode = input("Masukkan Kode Booking (YURCELL-xxx): ").strip()
+            ditemukan = False
+            for item in data_pesanan:
+                if item [0] == cari_kode:
+                    ditemukan = True
+                    print(f"Data Ditemukan: {item[1]} ({item[2]})")
+                    print("1. Ubah Nama  2. Ubah No HP  3. Ubah Titik Jemput")
+                    sub = input("Pilih (1-3): ").strip()
+                    temp = list(item)
+                    if sub == "1":
+                        n = input("Nama Baru: ").strip()
+                        if n != "": temp[1] = n; print("Nama berhasil diubah.")
+                    elif sub == "2":
+                        hp = input("No HP Baru: ").strip()
+                        if hp != "": temp[4] = hp; print("No HP berhasil diubah.")
+                    elif sub == "3":
+                        j = input("Titik Jemput Baru: ").strip()
+                        if j != "": temp[5] = j; print("Titik jemput berhasil diubah.")
+                    else: print("Pilihan ubah salah!")
+                    idx_p = data_pesanan.index(item)
+                    data_pesanan[idx_p] = tuple(temp)
+                    break
+            if ditemukan == False: print("Kode booking tidak ditemukan!")
+            # 4. BATAL TIKET 
+    elif pilihan == "4":
+        print("--- BATAL TIKET ---")
+        if data_pesanan == []:
+            print("Belum ada data pesanan.")
+        else:
+            cari_kode = input("Masukkan Kode Booking (YURCELL-xxx): ").strip()
+            ditemukan = False
+            for item in data_pesanan:
+                if item[0] == cari_kode:
+                    ditemukan = True
+                    data_pesanan.remove(item)  # Menghapus pesanan dari list
+                    print(f"Pesanan dengan kode {cari_kode} berhasil dibatalkan!")
+                    break
+            
+            if not ditemukan:
+                print("Kode booking tidak ditemukan!")
+
+    # 5. KELUAR
+    elif pilihan == "5":
+        print("Terima kasih telah menggunakan sistem pemesanan tiket!")
+        break
+    
+    else:
+        print("Pilihan tidak valid, silakan pilih menu 1-5.")
